@@ -1,0 +1,19 @@
+{
+  "name": "statement-of-account",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "docxtemplater": "^3.9.4",
+    "exceljs": "^1.6.3",
+    "jszip": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/exceljs": "^0.5.2"
+  }
+}

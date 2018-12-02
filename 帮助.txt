@@ -1,0 +1,20 @@
+1. 若未安装过 nodejs, 进入 tools 文件夹，双击 node.msi 安装。
+2. 将中文和英文模板 word 文件，分别命名为 cn.doc 和 en.doc, 放入 templates 文件夹。
+
+3. 将账单 excel 文件，命名为 debit.xls，放入 input 文件夹。
+4. 双击 run.bat （如果打开了output 文件夹下的文件，请先关闭在运行。）
+
+
+模板字段：
+客户名称 {clientName}
+创建日期 {createdDate}
+账单编号 {invoiceId}
+对方文号 {clientFileId}
+我方文号 {agentFileId}
+合计 {fee}
+币种 {currency}
+总欠款 {debitTotal}
+0-30天欠款 {debit0-30}
+31-60天欠款 {debit31-60}
+61-90天欠款 {debit61-90}
+91天及以上欠款 {debit91AndMore}

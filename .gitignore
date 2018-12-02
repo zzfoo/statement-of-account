@@ -1,0 +1,4 @@
+node_modules/
+output/cn/**/*
+output/en/**/*
+tools/
